@@ -4,7 +4,7 @@ body {
     font-family: Garamond, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 header {
-    background-image: url('Photos/Headerphoto.jpg'); 
+    background-image: url('Photos/headerphoto.jpg'); 
     background-size: cover;
     background-position: center;
     margin: 0;
