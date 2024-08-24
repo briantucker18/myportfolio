@@ -1,0 +1,186 @@
+body {
+    background-color: antiquewhite;
+    margin: 0;
+    font-family: Garamond, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header {
+    background-image: url('Photos/Headerphoto.jpg'); 
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+    align-items: center;
+    margin: 0;
+    padding: 3rem 0 3rem 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    font-size: 3rem;
+    margin: 2rem 0 0 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 2rem;
+    margin: 2rem 0 0 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+}
+
+div {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    margin: 4rem;
+}
+
+section {
+    border: 3px solid black;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 10px;
+    transition: transform 0.5s ease;
+}
+
+section:hover {
+    transform: scale(1.1);
+}
+
+.lessonplans {
+    background-image: url(Photos/teachingphoto.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.educationalresearch {
+    background-image: url('Photos/researchphoto.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.genealogyresearch {
+    background-image: url(Photos/genealogyphoto.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+aside {
+    border: 3px solid pink;
+    width: 50%;
+    float: right;
+    padding: 0;
+    margin: 0;
+}
+
+.webdesign {
+    background-image: url(Photos/webdesignphoto.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.backgroundbutton {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+header img {
+    border-radius: 150px;
+    margin-right: 3rem;
+}
+
+.teachingpage {
+    border-radius: 20px;
+    scale: 90%;
+    width: 50%;
+}
+
+.genealogytext {
+    margin-right: 0;
+    flex: 1;
+}
+
+.genealogymain {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.photocaption {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.genealogypage1 {
+    height: 300px;
+    width: 450px;
+    margin: 3rem 3rem 0 3rem;
+}
+
+.genealogypage2 {
+    height: 300px;
+    width: 450px;
+    margin: 3rem 3rem 0 3rem;
+}
+.genealogypage3 {
+    height: 300px;
+    width: 300px;
+    margin: 3rem 3rem 0 3rem;
+}
+
+.caption {
+    margin: 0;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+
+article {
+    border: 3px solid black;
+    display: flex;
+    flex-flow: column;
+    margin: 1rem;
+    border-radius: 20px;
+    width: 50%;
+}
+
+article p {
+    margin: 1rem;
+    text-indent: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer ul{
+    display: inline-block;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 3rem;
+    font-size: 3rem;
+    transition: transform 1s ease;
+}
+
+li a {
+    text-decoration-style: none;
+    color: black;
+}
+
+footer ul li:hover i {
+    transform: scale(1.1);
+}
